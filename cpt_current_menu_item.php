@@ -4,8 +4,7 @@
 	function sco_add_current_menu_item_to_cpt_single_post($classes = array(), $menu_item = false){
 
 		global $wp_query;
-
-		$body_classes = get_body_class();
+		
 		$postargs = array(
 			'public'   => true,
 			'_builtin' => false
@@ -18,5 +17,5 @@
 	    }
 
 	    return $classes;
-	    
+
 	}
